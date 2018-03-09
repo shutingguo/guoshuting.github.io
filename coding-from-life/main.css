@@ -1,0 +1,154 @@
+/*
+  Coding from Life – Sketch 1: fixed layout
+
+  For sketch 1 you'll be positioning elements relative to an element with a fixed
+  width and height. For this sketch you can position elements by using pixel values.
+*/
+
+body {
+  background-color: black;
+}
+	
+.flower3{
+	position: absolute;
+      top:60%;
+      left: 50.2%;
+      right: 33%;
+      height:10%;
+      width:0.6%;
+  width: 0;
+  height: 0;
+  border-left: 42px solid transparent;
+  border-right: 42px solid transparent;
+  border-top: 50px solid pink;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+.flower2{
+	position: absolute;
+      top:60%;
+      left: 51.2%;
+      right: 30%;
+      height:10%;
+      width:0.6%;
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 50px solid purple;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+          
+
+.flower1{display:block;
+   
+   background-color: green;
+   -webkit-border-radius: 33px 33px 33px 33px / 78px 78px 52px 52px;
+   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+   position: absolute;
+      top:67%;
+      left: 53.2%;
+      right: 30%;
+      height:10%;
+      width:0.6%;}
+.cathead{ position:block;
+   
+   background-color: #fff7d3;
+   -webkit-border-radius: 33px 33px 33px 33px / 78px 78px 52px 52px;
+   border-radius:         30%  30%  30%  30%  / 36%   36%   36%  36%;
+   position: absolute;
+      top:70.5%;
+      left: 532.2px;
+      right: 30%;
+      height:5%;
+      width:2.9%;}
+
+.red{position: absolute;
+
+      top:75.6%;
+      bottom:80px;
+      left:534.5px;
+      right:30%;
+    
+ 	width:30px;
+	height: 3px;
+	background: red;}
+
+.cat{display:block;
+   
+   background-color: #fff7d3;
+   -webkit-border-radius: 33px 33px 33px 33px / 78px 78px 52px 52px;
+   border-radius:         40%  40%  40%  40%  / 60%   60%   40%  40%;
+   position: absolute;
+      top:76%;
+      left: 40%;
+      right: 30%;
+      height:10%;
+      width:6%;}
+
+ .book-front{position: absolute;
+      bottom:80px;
+      left:55%;
+      right:600px;
+      height:39%;
+      width:28.4%;
+ 	width:70px;
+	height: 100px;
+	background: #1600e0}
+
+ .book-bottom{border-bottom: 90px solid #b4f5ff;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+
+	width: 41px;
+  
+      position: absolute;
+      top:40%;
+      left: 33.96%;
+      right: 36.5%;
+      height:39%;
+      width:28.4%;}
+
+.vase{ display:block;
+   
+   background-color: #fff7d3;
+   -webkit-border-radius: 33px 33px 33px 33px / 78px 78px 52px 52px;
+   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+   position: absolute;
+      top:72%;
+      left: 51%;
+      right: 30%;
+      height:10%;
+      width:5%;}
+.table {border-bottom: 200px solid #5fbeff;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 350px;
+	width: 60px;
+	padding: 20px;
+      margin-top:0px;
+      position: absolute;
+      top:35.5%;
+      left: 30%;
+      right: 30%;
+      height:50%;
+      width:30%;｝
+
+
+  
+.frame{
+  width: 1000px;
+  height: 600px;
+  background: white;
+  margin: 30px auto;
+  position: relative;}
+
+
+
+
+
+
+/* Your CSS goes here */
