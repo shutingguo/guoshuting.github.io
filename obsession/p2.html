@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Rich</title>
+	<style>
+	 body{background-color: #153800;}
+     h1{color: white;
+    	 position: absolute;
+    	 top:30px;
+         left: 45px;}
+
+      h2{color: white;
+    	 position: absolute;
+    	 top:750px;
+         left: 50px;}
+
+        .map{position:absolute;
+    	 top:105px;
+         left: 210px;
+
+}
+         .duck{position: absolute;
+    	 top:34px;
+         left: 275px;}
+
+       
+         
+        .roastduck{position: absolute;
+    	 top:848px;
+         left: 50px;}
+
+         .beijing{position: absolute;
+    	 top:885px;
+         left: 400px;}
+
+         .texta{position: absolute;
+    	 top:1160px;
+         left: 50px;
+         color: white;
+         font-size:21px;}
+        
+         
+         .other{position: absolute;
+    	 top:775px;
+         left:760px;
+         color: white;
+         font-size:27px;}
+        
+      
+
+        
+            .textb{position: absolute;
+    	    top:1139px;
+            left: 740px;
+            color: white;
+            font-size:21px;}
+
+            .shanxi{position: absolute;
+    	    top:810px;
+            left: 717px;
+            }
+
+         
+
+         .bing{position: absolute;
+         top:1250px;
+         left: 855.5px;}
+         .mg{position: absolute;
+         top:1300px;
+         left: 669px;}
+           
+          .textc{position: absolute;
+    	 top:1535px;
+         left: 740px;
+         color: white;
+         font-size:21px;}
+
+
+         .textd{position: absolute;
+    	 top:1945px;
+         left: 740px;
+         color: white;
+         font-size:21px;}
+
+          .xz{position: absolute;
+    	 top:1670px;
+         left: 855.5px;
+         }
+          .tb{position: absolute;
+         top:1720px;
+         left: 669px;
+         }
+      
+        
+#draw{position: absolute;
+             top:960px;
+             left: 650px;
+            
+            }
+            .click{position: absolute;
+         top:1117px;
+         left: 50px;
+         color: white;
+         font-size:18px;}
+         
+         </style>
+         </head>
+
+<body>
+	 <a href="hpindex.html"><h1>TASTE CHINA</h1></a>
+	<h2>My Recommendation:</h2>
+	<div class="map"><img src="map2.png"></div>
+	<div class="duck"><img src="鸭.png"></div> <canvas id="draw" width="1024" height="768"></canvas>
+    <div class="roastduck"><a href="http://www.dadongny.com/"><img src="duck.jpg"></a></div>
+    <div class="texta">City: Beijing<br> Signature Dish: Beijing Roast Duck</div>
+	<div class="beijing"><img src="beijing.png"></div>
+	<div class="other">And More:</div>
+
+	<div class="shanxi"><img src="shanxi.png"></div>
+	<div class="textb">Province: Shanxi<br> Signature Dish: Cold Wheat Noodles</div>
+    <div class="bing"><img src="bing.jpg"></div>
+	<div class="textc">Province: Inner Mongolia<br> Signature Dish: Mongolian Pastry</div>
+    <div class="mg"><img src="mg.png"></div>
+	<div class="textd">Province: Tibet<br> Signature Dish: Dried Beef</div>
+    <div class="xz"><img src="niurougan.jpg"></div>
+   <div class="tb"><img src="tibet.png"></div>
+   <div class="click">(Click to see where you can find it in NY)</div>
+</body>
+<script type="text/javascript">
+var abc=document.getElementById("draw");
+var cxt=abc.getContext('2d');
+cxt.strokeStyle="white"; 
+cxt.lineWidth=3;   /* 画笔的粗细度，不要这句就是细的，修改数字5，可以看到粗细变化*/
+cxt.moveTo(00,00);
+cxt.lineTo(00,1100);
+cxt.stroke();
+</script>
+</body>
