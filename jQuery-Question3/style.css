@@ -1,0 +1,48 @@
+body{
+	
+	font-family:Arial;
+                     }
+
+.text{font-size:20px;
+      text-align: center;}
+.frame{
+	width:15%;
+	height:5%;
+	position: absolute;
+	left:50%;
+	top:10%;
+	border:2px solid;
+	padding:5px;
+	transform:translateX(-50%);
+}
+.random{
+	position:absolute;
+	top:30%;
+	left:25%;
+	right: 10%;
+	
+}
+
+.fill {
+	background: #5B00C4;
+	color: white;
+}
+
+.box{
+	padding:50px;
+	margin-right:10px;
+	border:2px solid;
+	display: inline-block;
+	text-align: center;
+	border-color: #5B00C4;}
+
+	.no{color:#5B00C4;
+	    font-size: 35px;}
+
+/*	transform: translateY(-50%); */
+}
+
+/*.boxes p{
+	text-align: center;
+	transform: translateY(-50%); 
+}*/
