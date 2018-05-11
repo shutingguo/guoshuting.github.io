@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+body,h1,h2,p,figure {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #FDD4CE;
+
+}
+
+a {
+	text-decoration: none;
+} 
+
+#bighead {
+	width: 100%;
+	min-width: 1263px;
+	height: 600px;
+	background: url(img/head2.png) no-repeat center;
+
+	position: relative;
+}
+#bighead .theme {
+	text-align: center;
+	width: 180px;
+	height: 35px;
+	position: absolute;
+	top: 50px;
+	left: 90px;
+	color: red;
+	font-size: 20px;
+    padding: 0 0 0 0px;
+	background-color: white;
+	opacity: 0.6;
+	border-radius: 9px;
+}
+#bighead .tag2 {
+	text-align: center;
+	width: 180px;
+	height: 35px;
+	position: absolute;
+	top: 50px;
+	left: 400px;
+	color: white;
+	font-size: 20px;
+    padding: 0 0 0 0px;
+	background-color: red;
+	opacity: 0.6;
+	border-radius: 9px;
+}
+#bighead .tag3 {
+	text-align: center;
+	width: 180px;
+	height: 35px;
+	position: absolute;
+	top: 50px;
+	left: 700px;
+	color: red;
+	font-size: 20px;
+    padding: 0 0 0 0px;
+	background-color: white;
+	opacity: 0.6;
+	border-radius: 9px;
+}
+#bighead .tag4 {
+	text-align: center;
+	width: 180px;
+	height: 35px;
+	position: absolute;
+	top: 50px;
+	left: 1000px;
+	color: red;
+	font-size: 20px;
+    padding: 0 0 0 0px;
+	background-color: white;
+	opacity: 0.6;
+	border-radius: 9px;
+}
+#tour {
+	width: 1263px;
+	margin: 30px auto;
+	text-align: center;
+    background:#FDD4CE;
+
+
+}
+#tour .center h2 {
+	font-size: 45px;
+	letter-spacing: 2px;
+	color: #666;
+	margin: 10px 0;
+}
+#tour .center p {
+	color: #666;
+	margin: 10px 0;
+}
+#tour figure {
+	border: 2px dashed white;
+	display: inline-block;
+	padding: 6px;
+	border-radius: 9px;
+	margin: 15px 27px;
+	width: 380px;
+	text-align: left;
+	position: relative;
+}
+#tour figure img {
+	vertical-align: middle;
+}
+#tour figcaption {
+	color: #777;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	font-size: 14px;
+	padding: 7px 0 5px 0;
+	font-family: 
+}
